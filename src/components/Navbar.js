@@ -6,7 +6,7 @@ import './Navbar.css';
 let Navbar = () => {
 
     let [click, setClick] = useState(false); // Sets state of 'click' as 'false'. 'setClick' will be used to update the state of 'click' whenever needed.
-    let [button, setButton] = useState(true);
+    let [button, setButton] = useState(true); // Sets state of 'button' as 'true'. 'setButton' will be used to update the state of 'button' whenever needed.
 
     let handleClick = () => { // Reverses the state of 'click' when clicked
         setClick(!click);
@@ -16,7 +16,7 @@ let Navbar = () => {
         setClick(false);
     }
 
-    let showButton = () => {
+    let showButton = () => { // Sets the state of 'button' to 'false' when window size is <= 992px. If > 992px, state is 'true'.
         if(window.innerWidth <= 992) {
             setButton(false);
         } else {
@@ -24,11 +24,11 @@ let Navbar = () => {
         }
     }
 
-    useEffect( () => {
+    window.addEventListener('resize', showButton); // Eventlistener that 'listens' for any screen resizing and runs the showButton function if so.
+
+    useEffect( () => { // Allows us to fix issue of button appearing after refreshing screen on screens <= 992px.
         showButton();
     }, []);
-
-    window.addEventListener('resize', showButton);
 
     return (
         <>

@@ -5,7 +5,7 @@ import './Button.css';
 let btnStyles = ['btn-primary', 'btn-outline'];
 let btnSizes = ['btn-medium', 'btn-large'];
 
-let Button = ({ // We create a Button component with properties
+let Button = ({ // We create a Button component with properties:
     children,
     type,
     onClick,
