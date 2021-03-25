@@ -1,14 +1,12 @@
 import React from 'react';
 import Button from './Button';
 import './Hero.css';
-import heroImg from '../images/img-home.jpg';
 
 let Hero = () => {
     return (
         <div className='hero-container'>
-            <img src={heroImg} alt="Beach"/>
-            <h1>Adventure Awaits</h1>
-            <p>What are you waiting For?</p>
+            <h1 className='hero-heading'>Adventure Awaits</h1>
+            <p className='hero-text'>What are you waiting For?</p>
             <div className="hero-btns">
                 <Button className='btn' buttonStyle='btn-outline' buttonSize='btn-large'>
                     Get Started

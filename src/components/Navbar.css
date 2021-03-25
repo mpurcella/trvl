@@ -1,14 +1,14 @@
 .navbar {
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 10;
-    opacity: .95;
 }
 
 .navbar-container {
     width: 100%;
-    height: 10vh;
-    background: linear-gradient(to right, rgb(14, 14, 14) 0%, rgb(10, 10, 10) 100%);
+    height: 8vh;
+    background: linear-gradient(to right, rgb(17, 17, 17) 0%, rgb(10, 10, 10) 100%);
     padding: 0 50px;
     box-sizing: border-box;
     display: flex;
@@ -20,14 +20,14 @@
     display: flex;
     align-items: center;
     color: #fff;
-    font-size: 40px;
+    font-size: 4rem;
     text-decoration: none;
     font-family: 'Syne Mono', monospace;
 }
 
 .fa-typo3 {
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .menu-icon {
@@ -37,7 +37,6 @@
 .navbar-menu {
     height: 100%;
     display: flex;
-    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
 }
 
@@ -57,7 +56,7 @@
     align-items: center;
     text-decoration: none;
     color: #fff;
-    font-size: 24px;
+    font-size: 2.4rem;
     letter-spacing: 1px;
     border-bottom: 4px solid transparent;
     border-top: 4px solid transparent;
@@ -75,7 +74,7 @@
 
 .btn {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -90,27 +89,25 @@
     .menu-icon {
         display: flex;
         align-items: center;
-        font-size: 30px;
+        font-size: 3rem;
         color: #fff;
         cursor: pointer;
     }
 
     .navbar-menu {
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         flex-direction: column;
         align-items: center;
         position: absolute;
-        top: 10vh;
+        top: 8vh;
         left: -100%;
-        z-index: 1;
         transition: all .5s ease-in-out;
     }
 
     .navbar-menu.active {
         left: 0;
-        background-color: #242424;
-        z-index: 9;
+        background-color: #141414;
     }
 
     .navbar-menu-item {
@@ -128,7 +125,7 @@
 
     .navbar-menu-link {
         color: #fff;
-        font-size: 25px;
+        font-size: 2.8rem;
         padding: 35px;
         border: none;
         box-sizing: border-box;
@@ -136,7 +133,7 @@
 
     .navbar-menu-link:hover {
         background-color: #fff;
-        color: #242424;
+        color: #141414;
         box-sizing: border-box;
         border: none;
     }
@@ -151,13 +148,13 @@
         text-decoration: none;
         background-color: transparent;
         border: 1px solid var(--primary);
-        font-size: 25px;
+        font-size: 2.8rem;
         transition: all .3s ease-out;
         box-sizing: border-box;
     }
 
     .navbar-menu-link-mobile:hover {
         background-color: #fff;
-        color: #242424;
+        color: #141414;
     }
 }
