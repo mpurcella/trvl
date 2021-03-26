@@ -4,11 +4,6 @@
 }
 
 .cards-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    width: 90%;
-    max-width: 1120px;
     margin: 0 auto;
 }
 
@@ -29,6 +24,10 @@
     display: flex;
     flex: 1;
     margin: 0 16px;
+
+    & + .cards-list .card-item {
+        width: 33.3333%
+    }
 }
 
 /* @media (max-width: 992px) {

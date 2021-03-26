@@ -1,6 +1,9 @@
 .card-item {
-    margin: 0 5px 40px;
-    /* max-width: 45%; */
+    flex-grow: 1;
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 5px 40px;
 }
 
 .card-item:nth-child(5) {
@@ -8,8 +11,6 @@
 }
 
 .card-item-link {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, .17);
     border-radius: 10px;
@@ -61,6 +62,7 @@
 
 .card-item-info {
     padding: 15px 20px;
+    box-sizing: border-box;
 }
 
 .card-item-text {
