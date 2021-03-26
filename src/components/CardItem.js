@@ -8,6 +8,7 @@ let CardItem = (props) => {
             <li className="card-item">
                 <Link to={props.path} className='card-item-link'>
                     <figure className='card-item-img-wrapper'>
+                        <p className='card-item-img-overlay-text'>{props.location}</p>
                         <img src={props.src} alt="Waterfall" className='card-item-img'/>
                         <div className="card-item-category">
                             <p className='card-item-category-text'>{props.label}</p>

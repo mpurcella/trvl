@@ -1,6 +1,6 @@
 .cards {
-    padding: 50px;
-    background-color: #ffffff;
+    padding: 80px;
+    background-color: #0a0a0a;
 }
 
 .cards-container {
@@ -9,7 +9,10 @@
 
 .cards-heading {
     font-family: 'Syne Mono', monospace;
-    font-size: 3.2vw;
+    font-size: 3.4vw;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
 }
