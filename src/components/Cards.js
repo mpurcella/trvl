@@ -36,15 +36,15 @@ let Cards= () => {
                         />
                         <CardItem 
                             path='/services'
-                            text='Climb to the highest peaks of Mount Kinabalu'
-                            label='Adventure'
-                            src={img1}
-                        />
-                        <CardItem 
-                            path='/services'
                             text='Set sail on the Atlantic Ocean & visit uncharted waters'
                             label='Mystery'
                             src={img3}
+                        />
+                        <CardItem 
+                            path='/services'
+                            text='Climb the highest peaks of the mystical Mount Kinabalu'
+                            label='Adventure'
+                            src={img1}
                         />
                     </ul>
                 </div>

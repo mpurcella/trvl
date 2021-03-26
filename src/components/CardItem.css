@@ -3,11 +3,7 @@
     display: inline-block;
     width: 50%;
     box-sizing: border-box;
-    padding: 0 5px 40px;
-}
-
-.card-item:nth-child(5) {
-    margin: 0 5px;
+    padding: 0 10px 40px;
 }
 
 .card-item-link {
@@ -21,8 +17,9 @@
 .card-item-img-wrapper {
     position: relative;
     width: 100%;
-    padding-top: 65%;
+    padding-top: 70%;
     overflow: hidden;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-item-category {
@@ -31,14 +28,8 @@
     margin-left: 10px;
     padding: 6px 8px;
     border-radius: 5px 5px 0 0;
-    background-color: #1f98f4;
+    background-color: rgb(31, 152, 244);
     box-sizing: border-box;
-}
-
-.card-item-category-text {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #141414;
 }
 
 .card-item-img {
@@ -49,58 +40,49 @@
     left: 0;
     width: 100%;
     height: 100%;
-    max-width: 100%;
-    max-height: 100%;
     object-fit: cover;
     transition: all .2s linear;
     opacity: .95;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-item-img:hover {
     transform: scale(1.1);
 }
 
+.card-item-category-text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #141414;
+}
+
 .card-item-info {
-    padding: 15px 20px;
+    padding: 15px 15px;
     box-sizing: border-box;
+    box-shadow: 7px 5px 5px -20px rgba(160, 160, 160, 0.2),
+                0px 3px 10px rgba(65, 39, 39, 0.2),
+                -7px 5px 5px -20px rgba(160, 160, 160, 0.2);
+    border-radius: 0 0 5px 5px;
 }
 
 .card-item-text {
     color: #141414;
-    font-size: 1.8rem;
+    font-size: 1.3vw;
     font-weight: 700;
     text-align: center;
-}
-
-/* @media (max-width: 1200px) {
-
-
 }
 
 @media (max-width: 992px) {
 
     .card-item {
-        width: 90%;
+        width: 100%;
+    }
+
+    .card-item-img-wrapper {
+        padding-top: 60%;
     }
 
     .card-item-text {
-        font-size: 2rem;
+        font-size: 2vw;
     }
-
 }
-
-@media (max-width: 768px) {
-
-    .card-item-text {
-        font-size: 1.8rem;
-    }
-
-}
-
-@media (max-width: 576px) {
-    
-    .card-item-category-text {
-        font-size: 1.2rem;
-    }
-
-} */

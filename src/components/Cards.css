@@ -9,7 +9,7 @@
 
 .cards-heading {
     font-family: 'Syne Mono', monospace;
-    font-size: 3.2rem;
+    font-size: 3.2vw;
     text-align: center;
     text-transform: uppercase;
 }
@@ -23,33 +23,42 @@
 .cards-list {
     display: flex;
     flex: 1;
-    margin: 0 16px;
-
-    & + .cards-list .card-item {
-        width: 33.3333%
-    }
 }
 
-/* @media (max-width: 992px) {
+.cards-list + .cards-list .card-item {
+    width: 33.3333%;
+    padding: 0 10px 0;
+}
+
+@media (max-width: 992px) {
 
     .cards-list {
-        flex-direction: column;
+        display: block;
+        flex: none;
+    }
+
+    .cards-list + .cards-list .card-item {
+        width: 100%;
+        padding: 0 10px 40px;
+    }
+
+    .cards-list + .cards-list .card-item:nth-child(3) {
+        padding: 0 10px 0;
+    }
+
+    .cards-heading {
+        font-size: 4vw;
     }
 
 }
 
 @media (max-width: 768px) {
 
-    .cards-heading {
-        font-size: 3rem;
-    }
+
     
 }
 
 @media (max-width: 576px) {
 
-    .cards-heading {
-        font-size: 2.8rem;
-    }
-    
-} */
+
+}
