@@ -48,7 +48,7 @@
 
 .card-item-img-wrapper:hover .card-item-img {
     transform: scale(1.1);
-    opacity: .3;
+    opacity: .5;
 }
 
 /* .card-item-img:hover {
@@ -61,7 +61,7 @@
     height: 100%;
     font-family: 'Syne Mono', monospace;
     font-size: 40px;
-    color: #fff;
+    color: #141414;
     position: absolute;
     top: 0;
     display: flex;
@@ -86,6 +86,10 @@
 }
 
 .card-item-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
     background-color: #fff;
     padding: 15px 15px;
     box-sizing: border-box;
