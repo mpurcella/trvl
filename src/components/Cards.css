@@ -33,8 +33,14 @@
     padding: 0 10px 0;
 }
 
+.cards-list + .cards-list .card-item .card-item-img-overlay-text {
+    font-size: 2.8rem;
+}
+
 .cards-list + .cards-list .card-item .card-item-text {
-    font-size: 1.1vw;
+    font-size: 1.2vw;
+    line-height: 1.2;
+    font-weight: 700;
 }
 
 @media (max-width: 992px) {
@@ -55,6 +61,10 @@
 
     .cards-heading {
         font-size: 4vw;
+    }
+
+    .cards-list + .cards-list .card-item .card-item-img-overlay-text {
+        font-size: 3.2rem;
     }
 
     .cards-list + .cards-list .card-item .card-item-text {
