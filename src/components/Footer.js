@@ -106,7 +106,7 @@ let Footer = () => {
                     <ul className="footer-links-list">
                         <li className='footer-links-item'>
                             <Link 
-                                to='/sign-up'
+                                to='#'
                                 className='footer-links-link'
                             >
                             Submit Video
@@ -143,7 +143,7 @@ let Footer = () => {
                     <ul className="footer-links-list">
                         <li className='footer-links-item'>
                             <Link 
-                                to='/sign-up'
+                                to='#'
                                 className='footer-links-link'
                             >
                             Facebook
