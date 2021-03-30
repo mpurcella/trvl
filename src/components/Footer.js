@@ -8,7 +8,7 @@ let Footer = () => {
         <div className='footer-container'>
             <div className="footer-email-subscribe">
                 <h4 className="footer-email-subscribe-heading">
-                    Join the Adventure Newsletter to receive our best vacation deals!
+                    Join the Adventure Newsletter to receive our latest vacation deals!
                 </h4>
                 <p className="footer-email-subscribe-text">
                     You can unsubscribe at any time.
@@ -24,7 +24,7 @@ let Footer = () => {
                     <ul className="footer-links-list">
                         <li className='footer-links-item'>
                             <Link 
-                                to='/sign-up'
+                                to='/'
                                 className='footer-links-link'
                             >
                             How it Works
@@ -32,7 +32,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Testimonials
@@ -40,7 +40,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Careers
@@ -48,7 +48,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Investors
@@ -56,7 +56,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Terms of Service
@@ -69,7 +69,7 @@ let Footer = () => {
                     <ul className="footer-links-list">
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Contact
@@ -77,7 +77,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Support
@@ -85,7 +85,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Destinations
@@ -93,7 +93,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Sponsorships
@@ -106,7 +106,7 @@ let Footer = () => {
                     <ul className="footer-links-list">
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Submit Video
@@ -114,7 +114,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Ambassadors
@@ -122,7 +122,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Agency
@@ -130,7 +130,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Influencers
@@ -143,7 +143,7 @@ let Footer = () => {
                     <ul className="footer-links-list">
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Facebook
@@ -151,7 +151,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Instagram
@@ -159,7 +159,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Twitter
@@ -167,7 +167,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             Snapchat
@@ -175,7 +175,7 @@ let Footer = () => {
                         </li>
                         <li className='footer-links-item'>
                             <Link 
-                                to='#'
+                                to='/'
                                 className='footer-links-link'
                             >
                             TikTok
@@ -213,7 +213,7 @@ let Footer = () => {
                         <ul className="social-links-list">
                             <li className="social-list-item">
                                 <Link
-                                    to='#'
+                                    to='/'
                                     className='social-list-link'
                                     target='_blank'
                                     aria-label='Facebook'
@@ -223,7 +223,7 @@ let Footer = () => {
                             </li>
                             <li className="social-list-item">
                                 <Link
-                                    to='#'
+                                    to='/'
                                     className='social-list-link'
                                     target='_blank'
                                     aria-label='Instagram'
@@ -233,7 +233,7 @@ let Footer = () => {
                             </li>
                             <li className="social-list-item">
                                 <Link
-                                    to='#'
+                                    to='/'
                                     className='social-list-link'
                                     target='_blank'
                                     aria-label='Twitter'
@@ -243,7 +243,7 @@ let Footer = () => {
                             </li>
                             <li className="social-list-item">
                                 <Link
-                                    to='#'
+                                    to='/'
                                     className='social-list-link'
                                     target='_blank'
                                     aria-label='Snapchat'
@@ -253,7 +253,7 @@ let Footer = () => {
                             </li>
                             <li className="social-list-item">
                                 <Link
-                                    to='#'
+                                    to='/'
                                     className='social-list-link'
                                     target='_blank'
                                     aria-label='TikTok'
