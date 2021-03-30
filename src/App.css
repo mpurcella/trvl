@@ -1,0 +1,67 @@
+.services {
+    position: relative;
+    height: 100vh;
+    background-image: url('./images/img-10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .95;
+}
+
+.products {
+    position: relative;
+    height: 100vh;
+    background-image: url('./images/img-11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .95;
+}
+
+.sign-up {
+    position: relative;
+    height: 100vh;
+    background-image: url('./images/img-12.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .95;
+}
+
+.products-heading, .services-heading, .sign-up-heading {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    font-family: 'Bungee', cursive;    
+    font-size: 8rem;
+    color: #fff;
+    -webkit-text-stroke: 3px black;
+    line-height: .8;;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+
+    .products-heading, .services-heading, .sign-up-heading {
+        font-size: 7rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .products-heading, .services-heading, .sign-up-heading {
+        font-size: 6.5rem;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    .products-heading, .services-heading, .sign-up-heading {
+        font-size: 6rem;
+    }
+    
+}

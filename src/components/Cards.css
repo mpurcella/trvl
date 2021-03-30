@@ -17,6 +17,22 @@
     text-transform: uppercase;
 }
 
+.cards-heading::before, .cards-heading::after {
+    display: block;
+    content: '';
+    width: 100%;
+    border-top: 4px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.cards-heading::before {
+    margin-bottom: 20px;
+}
+
+.cards-heading::after {
+    margin-top: 20px;
+}
+
 .cards-wrapper {
     position: relative;
     margin: 80px 0 0;
@@ -37,7 +53,7 @@
     font-size: 2.8rem;
 }
 
-.cards-list + .cards-list .card-item .card-item-text {
+.cards-list + .cards-list .card-item .card-item-caption-text {
     font-size: 1.2vw;
     line-height: 1.2;
     font-weight: 700;
@@ -67,19 +83,8 @@
         font-size: 3.2rem;
     }
 
-    .cards-list + .cards-list .card-item .card-item-text {
+    .cards-list + .cards-list .card-item .card-item-caption-text {
         font-size: 2vw;
     }
-
-}
-
-@media (max-width: 768px) {
-
-
-    
-}
-
-@media (max-width: 576px) {
-
 
 }

@@ -15,6 +15,7 @@
 }
 
 .card-item-img-wrapper {
+    background-color: #000;
     position: relative;
     width: 100%;
     padding-top: 70%;
@@ -48,7 +49,7 @@
 
 .card-item-img-wrapper:hover .card-item-img {
     transform: scale(1.1);
-    opacity: .5;
+    opacity: .6;
 }
 
 /* .card-item-img:hover {
@@ -61,7 +62,7 @@
     height: 100%;
     font-family: 'Bungee', cursive;    
     font-size: 3.2rem;
-    color: #141414;
+    color: #fff;
     position: absolute;
     top: 0;
     display: flex;
@@ -85,20 +86,20 @@
     letter-spacing: 1.5px;
 }
 
-.card-item-info {
+.card-item-caption {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
     padding: 15px 15px;
     box-sizing: border-box;
-    box-shadow: 7px 5px 5px -20px rgba(78, 78, 78, 0.4),
-                0px 3px 10px rgba(78, 78, 78, 0.4),
-                -7px 5px 5px -20px rgba(78, 78, 78, 0.4);
+    box-shadow: 7px 5px 5px -20px rgba(167, 220, 255, 0.76),
+                0px 3px 10px rgba(167, 220, 255, 0.76),
+                -7px 5px 5px -20px rgba(167, 220, 255, 0.76);
     border-radius: 0 0 5px 5px;
 }
 
-.card-item-text {
+.card-item-caption-text {
     color: #141414;
     font-size: 1.4vw;
     font-weight: 700;
@@ -116,7 +117,7 @@
         padding-top: 55%;
     }
 
-    .card-item-text {
+    .card-item-caption-text {
         font-size: 2vw;
     }
 }

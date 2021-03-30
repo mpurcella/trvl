@@ -1,0 +1,242 @@
+.footer-container {
+    background: linear-gradient(to right, #111111 0%, #0a0a0a 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 70px 35px;
+}
+
+.footer-email-subscribe {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.footer-email-subscribe-heading {
+    font-family: 'Bungee', cursive;  
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.footer-email-subscribe-text {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.footer-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-email-input {
+    width: 40%;
+    height: 100%;
+    color: #141414;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 8px 20px;
+    margin-right: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.footer-email-input:focus {
+    border: 3px solid #a7dcff;
+}
+
+.footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.footer-links-container {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links-heading {
+    font-family: 'Bungee', cursive;    
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.footer-links-list {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-links-item {
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.footer-links-link {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all .3s;
+}
+
+.footer-links-link:hover {
+    color: #a7dcff
+}
+
+.copyright-logo-icon {
+    text-decoration: none;
+}
+
+.copyright-social {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-container {
+    display: flex;
+}
+
+.copyright-logo {
+    display: flex;
+    align-items: center;
+}
+
+.copyright-logo-text {
+    display: flex;
+    align-items: center;
+    font-family: 'Syne Mono', monospace;
+    font-size: 2rem;
+    text-decoration: none;
+    color:rgb(50, 50, 50);
+}
+
+.copyright-logo .fa-typo3 {
+    color: rgb(50, 50, 50);
+    font-size: 1.6rem;
+    margin-right: 15px;
+}
+
+.copyright-info {
+    display: flex;
+    align-items: center;
+}
+
+.copyright-info-text {
+    font-size: 1.8rem;
+    color: rgb(50, 50, 50)
+}
+
+.social-links-list {
+    display: flex;
+    align-items: center;
+}
+
+.social-list-item {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.social-list-link {
+    font-size: 1.8rem;
+    color:rgb(50, 50, 50);
+    transition: color .3s;
+}
+
+.social-list-link:hover {
+    color: #a7dcff; 
+}
+
+@media (max-width: 1200px) {
+
+    .footer-email-subscribe-heading {
+        font-size: 2rem;
+    }
+
+    .footer-email-subscribe-text {
+        font-size: 1.8rem;
+    }
+
+    .footer-links-heading {
+        font-size: 2rem;
+    }
+
+    .footer-links-link {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media (max-width: 992px) {
+
+    .footer-email-input {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 864px) {
+
+    .footer-links {
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .footer-links-container {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .footer-links-container:nth-child(1) {
+        order: 1
+    }
+
+    .footer-links-container:nth-child(2) {
+        order: 3;
+    }
+
+    .footer-links-container:nth-child(3) {
+        order: 4;
+    }
+
+    .footer-links-container:nth-child(4) {
+        order: 2;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .footer-email-subscribe form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-email-input {
+        width: 70%;
+        margin: 0 0 10px 0;
+    }
+
+    .btn {
+        width: 70%;
+        margin: 0
+    }
+
+}

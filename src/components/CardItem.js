@@ -7,15 +7,15 @@ let CardItem = (props) => {
         <>
             <li className="card-item">
                 <Link to={props.path} className='card-item-link'>
-                    <figure className='card-item-img-wrapper'>
+                    <div className='card-item-img-wrapper'>
                         <p className='card-item-img-overlay-text'>{props.location}</p>
-                        <img src={props.src} alt="Waterfall" className='card-item-img'/>
+                        <img src={props.src} alt={props.alt} className='card-item-img'/>
                         <div className="card-item-category">
                             <p className='card-item-category-text'>{props.label}</p>
                         </div>
-                    </figure>
-                    <div className="card-item-info">
-                        <h5 className="card-item-text">
+                    </div>
+                    <div className="card-item-caption">
+                        <h5 className="card-item-caption-text">
                             {props.text}
                         </h5>
                     </div>

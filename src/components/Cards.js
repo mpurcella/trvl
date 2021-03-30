@@ -20,6 +20,7 @@ let Cards= () => {
                             label='Adventure'
                             location='Brazil'
                             src={img9}
+                            alt='Waterfall'
                         />
                         <CardItem 
                             path='/services'
@@ -27,6 +28,7 @@ let Cards= () => {
                             label='Luxury'
                             location='Indonesia'
                             src={img2}
+                            alt='Islands'
                         />
                     </ul>
                     <ul className="cards-list">
@@ -36,6 +38,7 @@ let Cards= () => {
                             label='Adventure'
                             location='Africa'
                             src={img8}
+                            alt='Desert'
                         />
                         <CardItem 
                             path='/services'
@@ -43,6 +46,7 @@ let Cards= () => {
                             label='Mystery'
                             location='Atlantic Ocean'
                             src={img3}
+                            alt='Ocean'
                         />
                         <CardItem 
                             path='/services'
@@ -50,12 +54,13 @@ let Cards= () => {
                             label='Adventure'
                             location='Malaysia'
                             src={img1}
+                            alt='Mountain'
                         />
                     </ul>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Cards;
